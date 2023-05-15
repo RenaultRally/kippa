@@ -1,0 +1,29 @@
+Revised 5/14/2023 with version test6.c.
+
+pause
+
+	Pauses the refresh rate so the map stops updating.
+
+resume
+
+	Resumes the refresh rate so the map continues updating.
+
+info [id] [attribute]
+
+	Retrieves an id's attribute's value.
+
+modify [id] [attribute] [new value]
+
+	Changes an id's attribute to the new value.
+
+faster
+
+	Doubles the refresh rate frequency.
+
+slower
+
+	Halves the refresh rate frequency.
+
+createent [type] [name] [posx] [posy]
+
+	Creates an entity of a type called a name.
